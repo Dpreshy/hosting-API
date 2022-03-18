@@ -2,7 +2,7 @@ require('dotenv')
 
 const express = require ('express')
 const res = require('express/lib/response')
-const port = process.env.port || 2022
+const port = process.env.PORT || 2022
 const app = express()
 // const mongoose = require('mongoose')
 
